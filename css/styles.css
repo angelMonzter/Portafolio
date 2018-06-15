@@ -1,0 +1,86 @@
+html{
+	padding: 0;
+}
+body{
+    font-family: 'Josefin Slab', serif;
+	background:white;
+}
+li {
+    padding: 7px;
+    display: inline;
+}
+li a {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    font-size: 17px;
+    color: white;
+}
+#titulo{
+    font-family: 'Josefin Slab', serif;
+    padding: 14px 16px;
+    background-color: black;
+    color: white;
+}
+#titulo a{
+    float: right;
+}
+.gif{
+    background: rgba(205,205,205,0.2);
+    padding: 15px 15px;
+    width: 585px;
+    height: 450px;
+    font-family: 'Josefin Slab', serif;
+}
+.gif img{
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
+.gif a img:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+p{
+    font-size: 18px;
+}
+footer{
+    padding-top: 40px;
+}
+@media screen and (max-width: 600px) {
+    .gif {display:;}
+    .gif{
+        width: 375px;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .gif {display:;}
+    .gif img{
+        width: 350px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .gif {display:;}
+    .gif h5{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .gif {display:;}
+    .gif p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #titulo {display:;}
+    #titulo li a{
+        font-size: 16px;
+    }
+}

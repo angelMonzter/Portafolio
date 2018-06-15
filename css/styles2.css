@@ -1,0 +1,82 @@
+html{
+	padding: 0;
+}
+body{
+    font-family: 'Josefin Slab', serif;
+	background:white;
+}
+.letra{
+    font-family: 'Josefin Slab', serif;
+}
+li {
+    padding: 7px;
+    display: inline;
+}
+li a {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    font-size: 17px;
+    color: white;
+}
+#titulo{
+    font-family: 'Josefin Slab', serif;
+    padding: 14px 16px;
+    background-color: black;
+    color: white;
+}
+#titulo a{
+    float: right;
+}
+.gif{
+    background: rgba(205,205,205,0.2);
+    padding: 15px 15px;
+    width: px;
+    height: 420px;
+    font-family: 'Josefin Slab', serif;
+}
+#boton{
+	border-radius: 25px;
+	background-color: black;
+	-webkit-transition: width 1s, height 2s; 
+    transition: width 1s, height 2s;
+}
+#boton:hover {
+    width: 80px;
+}
+.social{
+	padding-top: 50px;
+}
+.social div div{
+	width:70px; 
+}
+@media screen and (max-width: 600px) {
+	.social {display:;}
+	.social div div {
+		width: 40px;
+	}
+}
+@media screen and (max-width: 600px) {
+    #titulo {display:;}
+    #titulo li a{
+        font-size: 16px;
+    }
+}
+.efect{
+	width: 70px;
+    height: 70px;
+    background: ;
+    -webkit-transition: width 1s, height 2s;
+    transition: width 1s, height 2s;
+}
+.efect:hover {
+    width: 50px;
+}
+footer{
+	padding-top: 65px;
+}
